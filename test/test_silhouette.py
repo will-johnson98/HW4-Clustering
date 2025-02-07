@@ -1,9 +1,9 @@
 import numpy as np
 import pytest
 from sklearn.metrics import silhouette_score as sk_silhouette_score
-from utils import make_clusters
-from silhouette import Silhouette
-from kmeans import KMeans
+from cluster.utils import make_clusters
+from cluster.silhouette import Silhouette
+from cluster.kmeans import KMeans
 
 def test_silhouette_init():
     """Test Silhouette initialization."""

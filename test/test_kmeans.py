@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
-from utils import make_clusters
-from kmeans import KMeans
+from cluster.utils import make_clusters
+from cluster.kmeans import KMeans
 
 def test_kmeans_init():
     """Test KMeans initialization and input validation."""
